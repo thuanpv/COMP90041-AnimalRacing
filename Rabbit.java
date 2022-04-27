@@ -7,7 +7,7 @@ public class Rabbit extends Animal {
         this.setSpeed(speed);
     }
 
-    public void interact() {
-        System.out.println("HOP!!!");
+    public String interact() {
+        return "HOP!!!";
     }
 }
