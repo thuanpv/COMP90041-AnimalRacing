@@ -7,7 +7,7 @@ public class Turtle extends Animal {
         this.setSpeed(speed);
     }
 
-    public void interact() {
-        System.out.println("S~L~O~W!!!");
+    public String interact() {
+        return "S~L~O~W!!!";
     }
 }

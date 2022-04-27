@@ -6,6 +6,7 @@ public abstract class Animal {
 
     public void sleep() {}
     public void play() {}
+    public abstract String interact();
     
     // Setter of name
     public void setName(String name) {
