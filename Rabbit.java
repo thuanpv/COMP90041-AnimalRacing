@@ -6,4 +6,8 @@ public class Rabbit extends Animal {
         this.setWeight(weight);
         this.setSpeed(speed);
     }
+
+    public void interact() {
+        System.out.println("HOP!!!");
+    }
 }
